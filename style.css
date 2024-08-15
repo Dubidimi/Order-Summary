@@ -1,0 +1,109 @@
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e0e8ff;
+}
+
+.container {
+    display: block;
+    margin: 150px auto;
+    border-radius: 2rem;
+    background-color: white;
+    width: 500px;
+    text-align: center;
+}
+#hero {
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.container h1 {
+    text-transform: capitalize;
+    color: #1c2b52;
+    font-size: 34px;
+}
+.container p {
+    padding: 0px 60px;
+    color: gray;
+    font-size: 20px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fe;
+    border-radius: 1rem;
+    margin: 30px;
+    padding: 20px;
+}
+.plan button {
+    margin-left: 40px;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #382ae1;
+    font-weight: 700;
+}
+.plan button:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #392ae187;
+    transition: all 0.2s ease-out;
+}
+.plan h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+.plan h3 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+    color: gray;
+}
+.txt {
+    margin-right: 60px;
+    margin-left: 10px;
+}
+
+
+#proceed {
+    width: 400px;
+    padding: 18px 24px;
+    border: none;
+    font-size: 16px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 1rem;
+    background-color: #382ae1;
+    color: white;
+    font-weight: 700;
+    -moz-box-shadow: 0px 12px 12px #382ae1;
+    -webkit-box-shadow: 0px 12px 12px #382ae1;
+    box-shadow: 0px 12px 12px #00000035;
+}
+#proceed:hover {
+    cursor: pointer;
+    background-color: #382ae1;
+    opacity: 0.7;
+    transition: all 0.2s ease-out;
+}
+#cancel {
+    width: 400px;
+    padding: 18px 24px;
+    margin: 10px auto;
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    color: gray;
+    font-weight: 700;
+}
+#cancel:hover {
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
